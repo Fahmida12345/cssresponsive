@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url('https://th.bing.com/th/id/OIP.cjaOrVsWrjcBT6L6l22pRgHaD6?pid=ImgDet&rs=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .container{
     background-color: blue;
     color: white;
@@ -23,15 +29,13 @@ header .top_header img{
     margin-left: 30px;
 }
 
-header .togg{
-    width: 70%;
-}
 
 header .togg{
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content:center;
-    transition: 0.5s linear;
+    transition: 0.5s;
 }
 
 header .togg ul{
