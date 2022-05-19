@@ -1,0 +1,36 @@
+@media screen and (max-width: 500px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header .top_header{
+        width: 80%;
+    }
+
+    label{
+        display: initial;
+    }
+
+    header .togg{
+        position: absolute;
+        top: 25%;
+        left: -100%;
+        width: 100%;
+        height: 70%;
+        background-color: rgb(255, 64, 0);
+    }
+
+    #btn:checked ~ .togg{
+        left: 0;
+    }
+
+    header .togg ul{
+        display: block;
+    }
+
+    header .togg ul li{
+        margin: 0;
+    }
+}

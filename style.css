@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: blue;
+    color: white;
+}
+
+
+header{
+    display: flex;
+}
+
+header .top_header{
+    width: 30%;
+}
+
+header .top_header img{
+    width: 35%;
+    margin-left: 30px;
+}
+
+header .togg{
+    width: 70%;
+}
+
+header .togg{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    transition: 0.5s linear;
+}
+
+header .togg ul{
+    display: flex;
+    list-style-type: none;
+}
+header .togg ul li{
+    margin: 0 20px;
+}
+header .togg ul li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+header .togg ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+label{
+    font-size: 35px;
+    margin: 47px 0;
+    display: none;
+}
+
+#btn{
+    display: none;
+}
